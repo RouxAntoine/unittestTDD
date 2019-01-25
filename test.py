@@ -7,11 +7,21 @@ from fizzbuzz.FizzBuzz import FizzBuzzClass
 
 class TestFizzBuzzLibrary(unittest.TestCase):
 
-    def test_should_return_one_for_one(self):
-        print(FizzBuzzClass)
+    FIZZ_CONST = "Fizz"
+    BUZZ_CONST = "Buzz"
 
+    def test_should_return_one_for_one(self):
         self.assertEqual(1, FizzBuzzClass.evaluate(1), "FizzBuzz.evaluate(1) should return 1")
-        # self.assertEqual('foo'.upper(), 'FOO')
+    
+
+    def test_should_return_two_For_two(self):
+        self.assertEqual(2, FizzBuzzClass.evaluate(2), "FizzBuzz.evaluate(2) should return 2")
+
+
+    def test_should_return_fizz_For_three(self):
+        self.assertEqual(self.FIZZ_CONST, FizzBuzzClass.evaluate(3), "FizzBuzz.evaluate(3) should return Fizz")
+
+
 
     # def test_isupper(self):
     #     self.assertTrue('FOO'.isupper())

@@ -4,5 +4,5 @@
 class FizzBuzzClass:
 
     @staticmethod
-    def evalutate(x):
-        return 1
+    def evaluate(x):
+        return x
