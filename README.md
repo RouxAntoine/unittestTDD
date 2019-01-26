@@ -14,6 +14,8 @@ create a python library that return number and return "Fizz" for multiple of 3 a
 4 => 4
 5 => "Buzz"
 6 => "Fizz"
+7 => 7
+10 => "Buzz"
 ...
 15 => "FizzBuzz"
 ```
