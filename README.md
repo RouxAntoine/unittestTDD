@@ -1,7 +1,7 @@
 ## Specification
 
 
-create a python library that return number and return "Fizz" for multiple of 3 and "Buzz" for multiple of 5
+Create a python library that return number or return "Fizz" for multiple of 3 or "Buzz" for multiple of 5
 "FizzBuzz" for multiple of 3 and 5
 
 
@@ -20,5 +20,7 @@ create a python library that return number and return "Fizz" for multiple of 3 a
 15 => "FizzBuzz"
 ```
 
+
+> coding dojo TDD (test before developpement)
 
 > inspired by [http://codingdojo.org/kata/FizzBuzz/](http://codingdojo.org/kata/FizzBuzz/)
